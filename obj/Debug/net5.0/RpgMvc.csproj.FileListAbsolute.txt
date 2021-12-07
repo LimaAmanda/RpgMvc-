@@ -185,4 +185,13 @@ C:\Etec\DS\RpgMvc\obj\Debug\net5.0\ref\RpgMvc.dll
 C:\Etec\DS\RpgMvc\obj\Debug\net5.0\RpgMvc.pdb
 C:\Etec\DS\RpgMvc\obj\Debug\net5.0\RpgMvc.genruntimeconfig.cache
 C:\Etec\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\Index.cshtml.g.cs
-C:\Etec\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\Index.Habilidade.cshtml.g.cs
+C:\Etec\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Armas\Create.cshtml.g.cs
+C:\Etec\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Armas\Details.cshtml.g.cs
+C:\Etec\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Armas\Edit.cshtml.g.cs
+C:\Etec\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Armas\Index.cshtml.g.cs
+C:\Etec\DS\RpgMvc\obj\Debug\net5.0\Razor\Views\Disputas\IndexHabilidades.cshtml.g.cs
+C:\Etec\DS\RpgMvc\bin\Debug\net5.0\Publish\web.config
+C:\Etec\DS\RpgMvc\bin\Debug\net5.0\Publish\appsettings.Development.json
+C:\Etec\DS\RpgMvc\bin\Debug\net5.0\Publish\appsettings.json
+C:\Etec\DS\RpgMvc\bin\Debug\net5.0\Publish\RpgMvc.deps.json
+C:\Etec\DS\RpgMvc\bin\Debug\net5.0\Publish\RpgMvc.runtimeconfig.json

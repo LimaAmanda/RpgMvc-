@@ -1,16 +1,16 @@
 @model RpgMvc.Models.DisputaViewModel
-@{
-    ViewBag.Title = "Index";
+@{ViewBag.Title = "Index";
+
 }
 @if (@TempData["Mensagem"] != null)
 {
     <div class="alert alert-success" role="alert">
-        @TempData["Mensagem"]</div>
+      @TempData["Mensagem"]</div>
 }
 @if (@TempData["MensagemErro"] != null)
 {
     <div class="alert alert-danger" role="alert">
-        @TempData["MensagemErro"]</div>
+     @TempData["MensagemErro"]</div>
 }
 <h2>Ataque com Arma</h2>
 @using (Html.BeginForm())
@@ -21,15 +21,14 @@
         <div class="form-group">
             @Html.DisplayName("Atacante")
             <div class="col-md-6">
-                @Html.DropDownListFor(model => model.AtacanteId, new SelectList(@ViewBag.ListaAtacantes, "Id", "Nome"),
-            "---Selecione---", new { @class = "form-control" })</div>
+        @Html.DropDownListFor(model => model.AtacanteId, new SelectList(@ViewBag.ListaAtacantes, "Id", "Nome"),
+                   "---Selecione---", new { @class = "form-control" })</div>
         </div>
         <div class="form-group">
             @Html.DisplayName("Oponente")
             <div class="col-md-6">
-                @Html.DropDownListFor(model => model.OponenteId, new SelectList(@ViewBag.ListaOponentes, "Id",
-            "Nome"),
-            "---Selecione---", new { @class = "form-control" })</div>
+    @Html.DropDownListFor(model => model.OponenteId, new SelectList(@ViewBag.ListaOponentes, "Id","Nome"),
+                    "---Selecione---", new { @class = "form-control" })</div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-6">
